@@ -1,0 +1,77 @@
+.coolTitle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    transform: skew(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: blue;
+    text-shadow: 
+    -1px -1px 0 lightblue,
+    -2px -2px 0 lightblue,
+    -3px -3px 0 lightblue,
+    -4px -4px 0 lightblue,
+    -5px -5px 0 lightblue,
+    -6px -6px 0 lightblue,
+    -7px -7px 0 lightblue,
+    -8px -8px 0 lightblue,
+    -30px 20px 40px grey;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 2rem 20rem;
+background-color: aliceblue;
+border: 1px solid blue;
+border-radius: 1rem;
+box-sizing: border-box;
+box-shadow: 0.2rem 0.2rem 0.6rem 0.4rem black;
+position: relative;
+}
+
+#first {
+    font-size: 2rem;
+}
+
+.userInput {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+input {
+margin-right: 1rem;
+font-size: 1rem;
+}
+
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+background-color: beige;
+width: 40vh;
+height: 5vh;
+align-items: center;
+justify-content: center;
+}
+
+.taskClass {
+    font-size: 1.5em;
+} 
+
+.done {
+text-decoration: line-through;
+}
+
+ul {
+display: block;
+}
+
+.delClass {
+margin-left: 20px;
+display: flex;
+color: red;
+}
+
